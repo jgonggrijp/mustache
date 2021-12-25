@@ -1,0 +1,7 @@
+services:
+    rake:
+        build:
+            context: .
+        command: rake man
+        volumes:
+            - ./:/usr/src/app
